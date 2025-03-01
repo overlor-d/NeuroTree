@@ -17,6 +17,10 @@ $(EXEC): $(OBJ)
 exec:
 	./$(EXEC)
 
+test_main:
+	$(CC) $(CFLAGS) -o test test/main.c $(LIBS)
+	./test C:\Users\over
+
 clean:
 ifeq ($(OS),Windows_NT)
 	@if exist src\main.o del /F /Q src\main.o
