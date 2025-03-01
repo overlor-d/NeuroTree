@@ -1,8 +1,0 @@
-# Ignore all files
-
-
-# Except files in the test folder
-!test/
-
-# Except executable files
-!*.exe
